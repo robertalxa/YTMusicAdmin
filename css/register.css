@@ -1,0 +1,225 @@
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.mainContent{
+    background-color: #212121;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.cadArtist{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #303030;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.titleCadArtist{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.titleCadArtist:hover{
+    background-color: rgba(220, 220, 220, 0.165);
+    border-radius: 10px;
+}
+
+.opTitleCadArtist{
+    width: 45px;
+}
+
+.opTitleCadArtist img{
+    width: 100%;
+}
+
+.formCadArtist{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.infosArtist{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+}
+
+.formCadArtist img{
+    width: 35%;
+    max-width: 300px;
+    min-width: 172px;
+    min-height: 172px;
+    max-height: 300px;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.formCadArtist label{
+    width: 45%;
+}
+
+.backInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.backInput:focus{
+    border: 1px solid black;
+}
+
+.formCadArtist input{
+    width: 95%;
+    background-color: transparent;
+    border: 0px;
+    padding: 3px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.btnSave{
+    transition: 500ms;
+    width: 5%;
+    min-width: 40px;
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnSave div{
+    width: 32px;
+    height: 32px;
+    min-width: 16px;
+    min-height: 16px;
+    margin: 5px;
+}
+
+.btnSave div img{
+    width: 100% ;
+    min-height: 0px;
+    min-width: 0px;
+}
+
+.btnSave:hover{
+    transition: 500ms;
+    background-color: #0bcc04;
+}
+
+
+.cadMusic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border: 2px solid #303030;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.titleCadMusic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.titleCadMusic:hover{
+    background-color: rgba(220, 220, 220, 0.165);
+    border-radius: 10px;
+}
+
+.opTitleCadMusic{
+    width: 45px;
+}
+
+.opTitleCadMusic img{
+    width: 100%;
+}
+
+.formCadMusic{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.formCadMusic img{
+    width: 35%;
+    max-width: 300px;
+    min-width: 172px;
+    min-height: 172px;
+    max-height: 300px;
+}
+
+.formCadMusic label{
+    width: 45%;
+}
+
+.formCadMusic input{
+    width: 95%;
+    background-color: transparent;
+    border: 0px;
+    padding: 3px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+@media (max-width:600px) {
+    .mainContent{
+        border: 0px;
+    }
+    .formCadArtist{
+        transition: 1s;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 100%;
+    }
+    .formCadArtist img{
+        transition: 1s;
+        margin: 0 auto;
+    }
+    .btnSave{
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .formCadMusic{
+        transition: 1s;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 100%;
+    }
+    .formCadMusic img{
+        transition: 1s;
+        margin: 0 auto;
+    }
+}

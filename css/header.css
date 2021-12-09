@@ -1,0 +1,90 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040404;
+}
+
+/* Estilos div logo */
+.divLogo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.logo{
+    height:40%;
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.logoName{
+    font-family: 'RobotoBold';
+    color: #ffffff;
+    font-size: 4vh;
+}
+/* ------------------- */
+
+/* Estilos div do meio */
+.divOptions{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.divOptions button{
+    border: 0px solid black;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    color: #A9A9A9;
+    font-family: 'RobotoBold';
+    font-weight: 500;
+}
+
+.optPesquisa{
+    display: flex;
+    cursor: pointer;
+}
+
+#inputPesquisa{
+    display: none;
+}
+/* ------------------- */
+
+/* Estilos div Conta */
+.divAccount{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+.logoAccount{
+    height: 80%;
+    border-radius: 50%;
+}
+.logoAccount img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* ------------------- */

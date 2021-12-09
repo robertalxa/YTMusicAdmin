@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>YouTube Music Manager</title>
+</head>
+<body>
+
+    <header>
+        <div class="divLogo">
+            <div class="logo">
+                <img src="../assets/img/ytIcon.svg" alt="">
+                <!-- <img src="/assets/img/cinza.jpg" alt=""> -->
+            </div>
+            <div class="logoName">
+                Music
+            </div>
+        </div>
+        <div class="divOptions">
+        </div>
+        <div class="divAccount">
+            <div class="logoAccount">
+                <img src="../assets/img/cinza.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="mainContent" id="divMainContent">
+
+        <div class="cadArtist">
+            <div class="titleCadArtist" id="titleCadArtist">
+                <h1>Register Artist</h1>
+                <div class="opTitleCadArtist">
+                    <img src="../assets/img/white-plus.png" alt="" id="iconRegisterArtist">
+                </div>
+            </div>
+            <div class="formCadArtist" id="formCadArtist">
+                <img src="../assets/img/cinza.jpg" alt="" id="previousPic">
+                <div class="infosArtist">
+                    <section class="info"><label for="profilePicture">Profile Picture</label> <section class="backInput"><input type="file" name="profilePicture" id="profilePicture" accept="image/*"></section></section>
+                    <section class="info"><label for="artistName">Name</label>                      <section class="backInput"><input type="text" name="name"     id="artistName"></section></section>
+                    <section class="info"><label for="summary">Summary</label>                <section class="backInput"><input type="text" name="summary"  id="summary"></section></section>
+                    <section class="info"><label for="genre">Musical Genre</label>            <section class="backInput"><input type="text" name="genre"    id="genre"></section></section>
+                </div>
+                <div class="btnSave" id="btnSaveArtist">
+                    <div>
+                        <img src="../assets/img/save.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cadMusic">
+            <div class="titleCadMusic" id="titleCadMusic">
+                <h1>Register Music</h1>
+                <div class="opTitleCadArtist">
+                    <img src="../assets/img/white-plus.png" alt="" id="iconRegisterMusic">
+                </div>
+            </div>
+            <div class="formCadMusic" id="formCadMusic">
+                <img src="../assets/img/cinza.jpg" alt="" id="coverPic">
+                <div class="infosArtist">
+                    <section class="info"><label for="coverPicture">Music Cover</label>             <section class="backInput"><input type="file" name="coverPicture" id="coverPicture" accept="image/*"></section></section>
+                    <section class="info"><label for="name">Music Name</label>                      <section class="backInput"><input type="text" name="name"     id="musicName"></section></section>
+                    
+                    <section class="info"><label for="artistSelected">Artist</label>                      
+                        <section class="backInput">
+                            <input list="artistsList" name="Artist" id="artistSelected">
+                            <datalist id="artistsList">
+                            </datalist>
+                        </section>
+                    </section>
+
+                    <section class="info"><label for="musicArchive">Music File</label>             <section class="backInput"><input type="file" name="musicArchive" id="musicArchive" accept="audio/*"></section></section>
+                </div>
+                <div class="btnSave" id="btnSaveMusic">
+                    <div>
+                        <img src="../assets/img/save.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <footer>
+        <div class="divControls">
+            
+        </div>
+        <div class="divSong">
+            <div class="logoSong">
+                <img src="assets/img/songs/sweetner.jpg" alt="">
+            </div>
+        </div>
+        <div class="divControlsRight">
+            
+        </div>
+    </footer> -->
+
+</body>
+<script src="../js/register.js"></script>
+</html>
